@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+     /* text-align: center; */
+    display:grid;
+    place-items: center; 
+}
+body,html{
+    width: 100lvw;
+    height: 100lvw;
+}
+::-webkit-scrollbar{
+    display: none;
+}
