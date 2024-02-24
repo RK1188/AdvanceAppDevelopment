@@ -1,0 +1,84 @@
+/* PurchasingForm.css */
+
+.dealer-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Input container styles */
+  .Dealer-container-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .Dealer-container-input-container input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Table styles */
+  .dealer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    /* color:black */
+  }
+  
+  .dealer-table th {
+    background: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .dealer-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  /* Assuming you have a common CSS file that styles "dealer-button" and "dealer-select" classes */
+  .dealer-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dealer-button button {
+    padding: 10px 20px;
+    /* background-color: #007bff; */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dealer-button select {
+    padding: 8px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #dc3545;
+    border-radius: 5px;
+  }
+  
+  /* Style the "cancel" button differently if needed */
+  .dealer-button button[type="button"] {
+    background-color: #dc3545;
+    margin-right: 10px;
+  }
+  
+  /* Style the "select" element arrow if needed */
+  .dealer-select::-ms-expand {
+    display: none; /* Remove default arrow on IE 11 */
+  }
+  
+  .dealer-select option :hover{
+    background-color:#d34452;
+  }

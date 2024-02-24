@@ -1,0 +1,85 @@
+/* profile.css */
+
+.profile_container {
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .profile_center {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile_img_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .profile_section_input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .profile_img_card img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .profile_input_image_label {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .profile_input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* If you want to style the read-only inputs differently */
+  
+  .profile_input[readonly] {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+  }
+  
+  /* Additional styles for the save button or any other elements you might add */
+  
+  .save_button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .save_button:hover {
+    background-color: #45a049;
+  }
+  .profile_save_Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px ;
+  }

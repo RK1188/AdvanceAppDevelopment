@@ -1,0 +1,39 @@
+
+
+.home{
+  height: 90vh;
+  /* background-image: url('C:\web\src\Components\background.avif'); */
+  /* background-color: grey; */
+  /* background-color: white; */
+  background-image: url("D:\web\src\assets\home2.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* color: rgb(0, 0, 0); */
+  justify-content: center;
+  align-items: center;
+}
+.theme {
+  width: 150px;
+  background-color: black;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: white;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: 'Lora', serif; 
+  text-decoration: none;
+
+}
+.content{
+  font-size: 20px;
+  text-align: center;    
+  /* margin-top: 10px; */
+}
+.type{
+  margin-top: 30px;
+}
+  
