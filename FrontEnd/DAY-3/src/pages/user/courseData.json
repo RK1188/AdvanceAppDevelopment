@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "img": "/src/assets/css/images/courese1.jpeg",
+      "courseName": "JAVA Basic ",
+      "examFormat": "Computer or paper-based",
+      "Noofpapers": "3",
+      "ExamLength": "About 2 hours 20 minutes"
+    },
+    {
+      "id": 2,
+      "img": "/src/assets/css/images/courese1.jpeg",
+      "courseName": "JAVA Basic ",
+      "examFormat": "Computer or paper-based",
+      "Noofpapers": "3",
+      "ExamLength": "About 2 hours 20 minutes"
+    },
+    {
+      "id": 3,
+      "img": "/src/assets/css/images/courese1.jpeg",
+      "courseName": "JAVA Basic ",
+      "examFormat": "Computer or paper-based",
+      "Noofpapers": "3",
+      "ExamLength": "About 2 hours 20 minutes"
+    },
+    {
+      "id": 4,
+      "img": "/src/assets/css/images/courese1.jpeg",
+      "courseName": "JAVA Basic ",
+      "examFormat": "Computer or paper-based",
+      "Noofpapers": "3",
+      "ExamLength": "About 2 hours 20 minutes"
+    },
+    {
+      "id": 5,
+      "img": "/src/assets/css/images/courese1.jpeg",
+      "courseName": "JAVA Basic ",
+      "examFormat": "Computer or paper-based",
+      "Noofpapers": "3",
+      "ExamLength": "About 2 hours 20 minutes"
+    },
+    {
+      "id": 6,
+      "img": "/src/assets/css/images/courese1.jpeg",
+      "courseName": "JAVA Basic ",
+      "examFormat": "Computer or paper-based",
+      "Noofpapers": "3",
+      "ExamLength": "About 2 hours 20 minutes"
+    },
+    {
+      "id": 7,
+      "img": "/src/assets/css/images/courese1.jpeg",
+      "courseName": "JAVA Basic ",
+      "examFormat": "Computer or paper-based",
+      "Noofpapers": "3",
+      "ExamLength": "About 2 hours 20 minutes"
+    },
+    {
+      "id": 8,
+      "img": "/src/assets/css/images/courese1.jpeg",
+      "courseName": "JAVA Basic",
+      "examFormat": "Computer or paper-based",
+      "Noofpapers": "3",
+      "ExamLength": "About 2 hours 20 minutes"
+    }
+  ]

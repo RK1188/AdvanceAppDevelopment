@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Protest+Revolution&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.course_container {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 250px; */
+    /* justify-content: space-evenly; */
+    background-color: rgb(51, 30, 51);
+    color: white;
+}
+
+.box {
+  margin-left: 500px;
+    width: 400px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* .image-box {
+    width: 50%;
+} */
+
+.course-image {
+    /* height: 100%; */
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.image-box-details {
+    width: 50%;
+    padding: 20px;  
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.image-box-details h3 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.enroll-button {
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 280px;
+}
+
+.enroll-button:hover {
+    background-color: white;
+    color: orangered;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.bookmarkcourse{
+    margin-left: 340px;
+    
+}
+.bookmarkoptions:hover{
+    background-color: white;
+}
+
+
+.bookmarkoptions:hover {
+    background-color: white;
+}
