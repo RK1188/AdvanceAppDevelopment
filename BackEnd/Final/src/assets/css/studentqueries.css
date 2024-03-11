@@ -1,0 +1,68 @@
+/* styles.css */
+/* studentqueries.css */
+
+.student-enquire-1 {
+  background-image: url('/src/assets/css/images/CourseBG1.jpg');
+  background-size:contain; /* Adjust this property as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  height:100vh;
+}
+
+.student-enquire-container {
+  max-width: 500px;
+  height: 100%;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 550px;
+}
+
+.student-enquire-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.student-enquire-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-enquire-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.student-enquire-textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.student-enquire-select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.student-enquire-button {
+  padding: 12px 15px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  margin-left: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+::-webkit-scrollbar{
+  display: none;
+}

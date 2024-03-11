@@ -1,0 +1,80 @@
+.ViewEnquires{
+  background-image: url('/src/assets/css/images/viewEnquireBG.jpg');
+  background-size:cover; /* Adjust this property as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  height:auto;
+}
+.EnquiriesPage-container-viewenquire {
+  text-align: center;
+  /* margin-top: 50px; */
+  padding-top: 100px;
+  /* padding-left: 90px; */
+  margin-bottom: 250px;
+  margin-left: 20px;
+  
+
+}
+.EnquiriesPage-heading-viewenquire {
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #333;
+}
+
+.EnquiriesPage-table-viewenquire {
+  border-collapse: collapse;
+  width: 48vw;
+  margin-left: 380px;
+  border: 2px solid #ddd;
+}
+
+.EnquiriesPage-table-viewenquire thead {
+  background-color: #f2f2f2;
+ 
+}
+
+.EnquiriesPage-table-viewenquire th,
+.EnquiriesPage-table-viewenquire td {
+  border-bottom: 1px solid #ddd;
+}
+
+.EnquiriesPage-popup-background-viewenquire {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.EnquiriesPage-popup-viewenquire {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.EnquiriesPage-close-viewenquire {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.EnquiriesPage-button-viewenquire {
+  background-color: black;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.EnquiriesPage-button-viewenquire:hover{
+  background-color: skyblue;
+}
